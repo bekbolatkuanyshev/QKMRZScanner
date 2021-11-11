@@ -60,8 +60,8 @@ class QKCutoutView: UIView {
             height = (width / documentFrameRatio)
         }
         else {
-            height = (bounds.height * 0.75) // Fill 75% of the height
-            width = (height * documentFrameRatio)
+            height = (bounds.height * 0.95) // Fill 95% of the height
+            width = (height * documentFrameRatio * 1.2)
         }
         
         let topOffset = (bounds.height - height) / 2
